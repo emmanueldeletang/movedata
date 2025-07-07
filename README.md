@@ -132,17 +132,7 @@ The Windows GUI provides:
   - **Progress Tracking**: Real-time progress bars and migration statistics
   - **Background Processing**: Non-blocking migration operations
 
-- **Change Streams Tab**:
-  - Start/stop change streams for individual collections
-  - Bulk change stream management for entire databases
-  - Real-time monitoring of active streams with detailed change logging
-  - Change stream status and document processing counts
-  - **Enhanced Change Visibility**: Detailed logging of all detected changes including:
-    - Complete document content for INSERT operations
-    - Before/after state for UPDATE operations with field-level details
-    - Document content for DELETE operations
-    - Real-time replication status and success confirmation
-    - Comprehensive error reporting and troubleshooting information
+
 
 - **Logs Tab**:
   - Real-time log display with configurable log levels
@@ -150,13 +140,7 @@ The Windows GUI provides:
   - Export logs to files for analysis
   - Integrated error reporting and diagnostics
 
-### Testing Change Streams
 
-To test the enhanced change stream functionality:
-
-```bash
-python test_change_streams.py
-```
 
 This will:
 1. Connect to your configured databases
@@ -179,7 +163,7 @@ Use the integrated tasks for development:
   - "Run Migration Tool" - CLI mode
   - "Run Migration Tool (GUI)" - GUI mode
   - "Run Migration Tool (CLI with GUI option)" - CLI with GUI flag
-  - "Test Change Streams" - Run change stream testing
+
 
 ## Security Best Practices
 
@@ -195,7 +179,7 @@ Use the integrated tasks for development:
 1. **GUI won't start**: Ensure Python 3.8+ is installed and tkinter is available
 2. **Connection failures**: Verify connection strings and network connectivity
 3. **Performance issues**: Adjust batch size settings for your environment
-4. **Change stream errors**: Ensure collections have change stream support enabled
+
 
 ### Getting Help
 
@@ -215,7 +199,6 @@ cosmosdbongo/
 │   ├── cli.py               # Command-line interface
 │   ├── connection_manager.py # Database connection management
 │   ├── migration_service.py  # Core migration logic
-│   ├── change_stream_manager.py # Change stream handling
 │   └── config.py            # Configuration management
 ├── gui_launcher.py          # Direct GUI launcher
 ├── launch_gui.bat          # Windows batch launcher
