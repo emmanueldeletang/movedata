@@ -1,0 +1,427 @@
+2025-06-27 17:16:27,206 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 17:17:21,504 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:17:51,319 - src.gui - INFO - Log level changed to INFO
+2025-06-27 17:17:51,968 - src.connection_manager - WARNING - Connection attempt 1 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6019a17d1292ff6e5da, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 1.00 seconds...
+2025-06-27 17:18:10,608 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:18:23,484 - src.connection_manager - WARNING - Connection attempt 2 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6219a17d1292ff6e5db, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 2.00 seconds...
+2025-06-27 17:18:40,701 - src.connection_manager - WARNING - Connection attempt 1 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6329a17d1292ff6e5dc, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 1.00 seconds...
+2025-06-27 17:18:55,712 - src.connection_manager - ERROR - Failed to connect after 3 attempts: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6419a17d1292ff6e5dd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-27 17:18:55,712 - src.connection_manager - ERROR - Failed to connect to source MongoDB instance: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6419a17d1292ff6e5dd, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-27 17:19:11,915 - src.connection_manager - WARNING - Connection attempt 2 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6519a17d1292ff6e5de, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 2.00 seconds...
+2025-06-27 17:19:44,780 - src.connection_manager - ERROR - Failed to connect after 3 attempts: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6729a17d1292ff6e5df, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-27 17:19:44,781 - src.connection_manager - ERROR - Failed to connect to source MongoDB instance: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685eb6729a17d1292ff6e5df, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-27 17:21:41,118 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:21:49,652 - src.connection_manager - WARNING - Connection attempt 1 failed: demomongoapiedeletang-westeurope.mongo.cosmos.azure.com:10255: connection closed (configured timeouts: socketTimeoutMS: 30000.0ms, connectTimeoutMS: 30000.0ms). Retrying in 1.00 seconds...
+2025-06-27 17:21:57,196 - src.connection_manager - WARNING - Connection attempt 2 failed: demomongoapiedeletang-westeurope.mongo.cosmos.azure.com:10255: connection closed (configured timeouts: socketTimeoutMS: 30000.0ms, connectTimeoutMS: 30000.0ms). Retrying in 2.00 seconds...
+2025-06-27 17:22:07,595 - src.connection_manager - ERROR - Unexpected error connecting to source: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}
+Traceback (most recent call last):
+  File "C:\Users\edeletang\cosmosdbongo\src\connection_manager.py", line 52, in connect_to_source
+    self.source_client = self._create_mongo_client(connection_string)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\src\connection_manager.py", line 139, in _create_mongo_client
+    client.admin.command('ping')
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\_csot.py", line 107, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\database.py", line 890, in command
+    with self.__client._conn_for_reads(read_preference, session) as (
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\edeletang\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1330, in _conn_from_server
+    with self._checkout(server, session) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\edeletang\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1252, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\edeletang\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 1637, in checkout
+    conn = self._get_conn(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 1756, in _get_conn
+    conn = self.connect(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 1602, in connect
+    conn.hello()
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 814, in hello
+    return self._hello(None, None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 858, in _hello
+    doc = self.command("admin", cmd, publish_events=False, exhaust_allowed=awaitable)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\helpers.py", line 322, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\pool.py", line 968, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\network.py", line 192, in command
+    helpers._check_command_response(
+  File "C:\Users\edeletang\cosmosdbongo\.venv\Lib\site-packages\pymongo\helpers.py", line 230, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}
+2025-06-27 17:29:34,696 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:29:35,781 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 17:29:35,805 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 17:29:36,491 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 17:29:42,548 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:29:43,271 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 17:29:43,271 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 17:29:43,602 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 17:30:13,478 - src.migration_service - INFO - Collection migration completed. 41 of 41 documents migrated.
+2025-06-27 17:30:32,162 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.orders
+2025-06-27 17:30:32,162 - src.change_stream_manager - INFO - Started change stream for restaurant.orders
+2025-06-27 17:30:32,181 - src.change_stream_manager - ERROR - Error in change stream for restaurant.orders: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:30:32,182 - src.change_stream_manager - INFO - Change stream monitor for restaurant.orders has stopped
+2025-06-27 17:31:46,986 - src.change_stream_manager - WARNING - Collection restaurant.orders does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:31:47,004 - src.change_stream_manager - WARNING - Collection restaurant.menu does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:32:07,702 - src.change_stream_manager - INFO - Stopped change stream for restaurant.orders
+2025-06-27 17:32:13,312 - src.change_stream_manager - WARNING - Collection restaurant.orders does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:32:13,329 - src.change_stream_manager - WARNING - Collection restaurant.menu does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:32:59,423 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 17:32:59,652 - src.migration_service - WARNING - Destination collection restaurant.orders already has 41 documents.
+2025-06-27 17:33:02,136 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,136 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,138 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,138 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,138 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,138 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,138 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,139 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,139 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,139 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,140 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,140 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,140 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,141 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,141 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,141 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,142 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,142 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,143 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,143 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,143 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,144 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,144 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,144 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,144 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,145 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,145 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,146 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,146 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,146 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,147 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,147 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,147 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,147 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,148 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,148 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,148 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,148 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,150 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,150 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,150 - src.migration_service - ERROR - Document insert error: Duplicate key violation on the requested collection: Index '_id_'
+2025-06-27 17:33:02,154 - src.migration_service - INFO - Collection migration completed. 1 of 42 documents migrated.
+2025-06-27 17:33:02,154 - src.migration_service - WARNING - Failed to migrate 41 documents in restaurant.orders
+2025-06-27 17:33:02,173 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 17:33:02,378 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents migrated.
+2025-06-27 17:33:02,378 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 15, 'failed_documents': 41}
+2025-06-27 17:33:36,222 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.orders
+2025-06-27 17:33:36,223 - src.change_stream_manager - INFO - Started change stream for restaurant.orders
+2025-06-27 17:33:36,240 - src.change_stream_manager - ERROR - Error in change stream for restaurant.orders: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:33:36,240 - src.change_stream_manager - INFO - Change stream monitor for restaurant.orders has stopped
+2025-06-27 17:34:08,897 - src.change_stream_manager - INFO - Stopped change stream for restaurant.orders
+2025-06-27 17:48:23,852 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 17:48:32,479 - src.config - INFO - Configuration loaded successfully.
+2025-06-27 17:48:35,925 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:48:36,820 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 17:48:36,821 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 17:48:37,207 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 17:48:54,111 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 17:48:54,202 - src.migration_service - INFO - Destination collection restaurant.orders already has 42 documents. Using upsert operations to handle duplicates.
+2025-06-27 17:48:56,853 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-06-27 17:48:56,854 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 17:48:56,872 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 17:48:56,947 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 17:48:57,026 - src.migration_service - INFO - Collection migration completed. 0 of 14 documents processed.
+2025-06-27 17:48:57,026 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 17:48:57,027 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 0, 'failed_documents': 0}
+2025-06-27 17:49:09,906 - src.migration_service - INFO - Migrating collection: mymongodb.todo
+2025-06-27 17:49:10,262 - src.migration_service - INFO - Collection migration completed. 5 of 5 documents processed.
+2025-06-27 17:49:10,263 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 5, Modified: 0
+2025-06-27 17:49:10,263 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 1, 'successful_collections': 1, 'failed_collections': 0, 'total_documents': 5, 'migrated_documents': 5, 'failed_documents': 0}
+2025-06-27 17:49:26,943 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.menu
+2025-06-27 17:49:26,943 - src.change_stream_manager - INFO - Started change stream for restaurant.menu
+2025-06-27 17:49:26,962 - src.change_stream_manager - ERROR - Error in change stream for restaurant.menu: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 17:49:26,962 - src.change_stream_manager - INFO - Change stream monitor for restaurant.menu has stopped
+2025-06-27 17:50:08,828 - src.change_stream_manager - WARNING - Change stream already active for restaurant.menu
+2025-06-27 17:54:38,615 - src.change_stream_manager - INFO - Stopped change stream for restaurant.menu
+2025-06-27 17:55:22,720 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 17:55:27,892 - src.config - INFO - Configuration loaded successfully.
+2025-06-27 17:55:30,609 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 17:55:31,533 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 17:55:31,534 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 17:55:31,911 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 17:55:39,554 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.menu
+2025-06-27 17:55:39,555 - src.change_stream_manager - INFO - Started change stream for restaurant.menu
+2025-06-27 17:55:39,602 - src.change_stream_manager - ERROR - Error in change stream for restaurant.menu: Unrecognized field: fullDocumentBeforeChange, full error: {'ok': 0.0, 'errmsg': 'Unrecognized field: fullDocumentBeforeChange', 'code': 9, 'codeName': 'FailedToParse'}
+2025-06-27 17:55:39,603 - src.change_stream_manager - INFO - Change stream monitor for restaurant.menu has stopped
+2025-06-27 17:56:08,460 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 17:56:08,560 - src.migration_service - INFO - Collection migration completed. 1 of 14 documents processed.
+2025-06-27 17:56:08,560 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 1
+2025-06-27 17:56:20,847 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 17:56:20,908 - src.migration_service - INFO - Collection migration completed. 0 of 14 documents processed.
+2025-06-27 17:56:20,909 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 17:56:55,154 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 17:56:55,214 - src.migration_service - INFO - Collection migration completed. 2 of 14 documents processed.
+2025-06-27 17:56:55,216 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 2
+2025-06-27 20:36:54,604 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 20:38:40,956 - src.config - INFO - Configuration loaded successfully.
+2025-06-27 20:38:52,905 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 20:38:54,219 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 20:38:54,223 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 20:38:55,511 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 20:38:55,547 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-27 20:39:22,589 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 20:39:22,616 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-06-27 20:39:25,066 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-06-27 20:39:25,279 - src.cosmos_ru_manager - INFO - Creating collection with autoscale throughput (max: 4000 RU/s)
+2025-06-27 20:39:25,295 - src.cosmos_ru_manager - INFO - Creating RU collection: restaurant.orders with partition key: email
+2025-06-27 20:39:26,821 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:39:30,394 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: c5b0c517-ddd9-461d-9eab-5c07097710c1; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: c5b0c517-ddd9-461d-9eab-5c07097710c1, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-06-27 20:39:30,403 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-06-27 20:39:30,491 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-06-27 20:39:30,516 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 20:39:30,575 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-06-27 20:39:30,664 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 20:39:30,698 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-06-27 20:39:30,768 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-06-27 20:39:30,820 - src.cosmos_ru_manager - INFO - Creating collection with autoscale throughput (max: 4000 RU/s)
+2025-06-27 20:39:30,854 - src.cosmos_ru_manager - INFO - Creating RU collection: restaurant.menu with partition key: name
+2025-06-27 20:39:31,907 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:39:32,166 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-06-27 20:39:32,168 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 14, Modified: 0
+2025-06-27 20:39:32,169 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-06-27 20:42:08,268 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 20:42:08,268 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-06-27 20:42:10,313 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-06-27 20:42:10,736 - src.cosmos_ru_manager - INFO - Collection restaurant.orders already exists
+2025-06-27 20:42:10,823 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:42:10,945 - src.migration_service - INFO - Destination collection restaurant.orders already has 40 documents. Using upsert operations to handle duplicates.
+2025-06-27 20:42:14,005 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: 66889279-eb9e-42b2-82a6-873026a9d463; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: 66889279-eb9e-42b2-82a6-873026a9d463, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-06-27 20:42:14,006 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-06-27 20:42:14,007 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-06-27 20:42:14,007 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 20:42:14,007 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-06-27 20:42:14,022 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 20:42:14,022 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-06-27 20:42:14,149 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-06-27 20:42:14,167 - src.cosmos_ru_manager - INFO - Collection restaurant.menu already exists
+2025-06-27 20:42:14,249 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:42:14,349 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 20:42:14,463 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-06-27 20:42:14,464 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 14
+2025-06-27 20:42:14,464 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-06-27 20:42:54,908 - src.gui - INFO - Log level changed to DEBUG
+2025-06-27 20:43:07,432 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.menu
+2025-06-27 20:43:07,432 - src.change_stream_manager - INFO - Started change stream for restaurant.menu
+2025-06-27 20:43:07,469 - src.change_stream_manager - ERROR - Error in change stream for restaurant.menu: Unrecognized field: fullDocumentBeforeChange, full error: {'ok': 0.0, 'errmsg': 'Unrecognized field: fullDocumentBeforeChange', 'code': 9, 'codeName': 'FailedToParse'}
+2025-06-27 20:43:07,469 - src.change_stream_manager - INFO - Change stream monitor for restaurant.menu has stopped
+2025-06-27 20:43:56,640 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 20:43:56,641 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-06-27 20:43:58,261 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-06-27 20:43:58,300 - src.cosmos_ru_manager - INFO - Collection restaurant.orders already exists
+2025-06-27 20:43:58,356 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:43:58,437 - src.migration_service - INFO - Destination collection restaurant.orders already has 40 documents. Using upsert operations to handle duplicates.
+2025-06-27 20:44:01,055 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: 0505ace5-0bd6-48a8-ab0c-22de790faebf; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: 0505ace5-0bd6-48a8-ab0c-22de790faebf, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-06-27 20:44:01,055 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-06-27 20:44:01,056 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-06-27 20:44:01,056 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 20:44:01,057 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-06-27 20:44:01,073 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 20:44:01,073 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-06-27 20:44:01,116 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-06-27 20:44:01,139 - src.cosmos_ru_manager - INFO - Collection restaurant.menu already exists
+2025-06-27 20:44:01,169 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 20:44:01,252 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 20:44:01,352 - src.migration_service - DEBUG - Batch processed: 0 inserted, 0 upserted, 14 modified
+2025-06-27 20:44:01,353 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-06-27 20:44:01,353 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 14
+2025-06-27 20:44:01,353 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-06-27 21:07:16,554 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 21:07:31,828 - src.config - INFO - Configuration loaded successfully.
+2025-06-27 21:07:41,296 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 21:07:42,428 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 21:07:42,430 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 21:07:43,263 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 21:07:43,285 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-27 21:08:04,104 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.menu
+2025-06-27 21:08:04,104 - src.change_stream_manager - INFO - Started change stream for restaurant.menu
+2025-06-27 21:08:04,165 - src.change_stream_manager - ERROR - Error in change stream for restaurant.menu: Unrecognized field: fullDocumentBeforeChange, full error: {'ok': 0.0, 'errmsg': 'Unrecognized field: fullDocumentBeforeChange', 'code': 9, 'codeName': 'FailedToParse'}
+2025-06-27 21:08:04,170 - src.change_stream_manager - INFO - Change stream monitor for restaurant.menu has stopped
+2025-06-27 21:09:12,788 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-06-27 21:09:12,796 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-06-27 21:09:15,235 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-06-27 21:09:15,363 - src.cosmos_ru_manager - INFO - Collection restaurant.orders already exists
+2025-06-27 21:09:15,457 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 21:09:15,550 - src.migration_service - INFO - Destination collection restaurant.orders already has 40 documents. Using upsert operations to handle duplicates.
+2025-06-27 21:09:19,176 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: 960a2486-d20f-4cf8-a2fe-7f5d95790757; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: 960a2486-d20f-4cf8-a2fe-7f5d95790757, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-06-27 21:09:19,181 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-06-27 21:09:19,196 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-06-27 21:09:19,196 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-06-27 21:09:19,197 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-06-27 21:09:19,256 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-06-27 21:09:19,262 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-06-27 21:09:19,318 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-06-27 21:09:19,349 - src.cosmos_ru_manager - INFO - Collection restaurant.menu already exists
+2025-06-27 21:09:19,433 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-06-27 21:09:19,541 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-06-27 21:09:19,677 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-06-27 21:09:19,678 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 14
+2025-06-27 21:09:19,680 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-06-27 21:09:54,522 - src.change_stream_manager - WARNING - Change stream already active for restaurant.menu
+2025-06-27 21:10:13,390 - src.change_stream_manager - INFO - Stopped change stream for restaurant.menu
+2025-06-27 21:10:17,706 - src.change_stream_manager - INFO - Starting change stream monitor for restaurant.menu
+2025-06-27 21:10:17,707 - src.change_stream_manager - INFO - Started change stream for restaurant.menu
+2025-06-27 21:10:17,727 - src.change_stream_manager - ERROR - Error in change stream for restaurant.menu: Unrecognized field: fullDocumentBeforeChange, full error: {'ok': 0.0, 'errmsg': 'Unrecognized field: fullDocumentBeforeChange', 'code': 9, 'codeName': 'FailedToParse'}
+2025-06-27 21:10:17,727 - src.change_stream_manager - INFO - Change stream monitor for restaurant.menu has stopped
+2025-06-27 21:11:21,364 - src.change_stream_manager - INFO - Stopped change stream for restaurant.menu
+2025-06-27 21:13:33,071 - src.change_stream_manager - INFO - No active change streams to stop
+2025-06-27 21:21:31,906 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-27 21:21:40,653 - src.config - INFO - Configuration loaded successfully.
+2025-06-27 21:21:49,968 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-27 21:21:50,772 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-27 21:21:50,772 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-27 21:21:51,416 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-27 21:21:51,442 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-27 21:21:59,731 - src.change_stream_manager - ERROR - Collection restaurant.menu does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 21:22:04,821 - src.change_stream_manager - ERROR - Collection restaurant.menu does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-27 21:24:05,674 - src.change_stream_manager - INFO - No active change streams to stop
+2025-06-28 10:12:26,361 - src.gui - ERROR - Application error: 'CosmosDBMigrationGUI' object has no attribute 'on_change_selected'
+Traceback (most recent call last):
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 1394, in main
+    try:
+         
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 56, in __init__
+    self.create_widgets()
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 101, in create_widgets
+    self.create_change_streams_tab()
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 459, in create_change_streams_tab
+    # Bind selection to show document details
+                                              
+AttributeError: 'CosmosDBMigrationGUI' object has no attribute 'on_change_selected'. Did you mean: 'on_database_selected'?
+2025-06-28 11:33:38,765 - src.gui - ERROR - Application error: 'CosmosDBMigrationGUI' object has no attribute 'on_change_selected'
+Traceback (most recent call last):
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 1394, in main
+    app = CosmosDBMigrationGUI()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 56, in __init__
+    self.create_widgets()
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 101, in create_widgets
+    self.create_change_streams_tab()
+  File "C:\Users\edeletang\cosmosdbongo\src\gui.py", line 459, in create_change_streams_tab
+    self.changes_tree.bind('<<TreeviewSelect>>', self.on_change_selected)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CosmosDBMigrationGUI' object has no attribute 'on_change_selected'. Did you mean: 'on_database_selected'?
+2025-06-28 11:42:17,803 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-28 11:43:38,735 - src.config - INFO - Configuration loaded successfully.
+2025-06-28 11:43:42,440 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-28 11:44:12,967 - src.connection_manager - WARNING - Connection attempt 1 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb94eea57199ea4e0a92c, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 1.00 seconds...
+2025-06-28 11:44:44,064 - src.connection_manager - WARNING - Connection attempt 2 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb96eea57199ea4e0a92d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 2.00 seconds...
+2025-06-28 11:44:49,201 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-28 11:45:16,252 - src.connection_manager - ERROR - Failed to connect after 3 attempts: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb98eea57199ea4e0a92e, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-28 11:45:16,253 - src.connection_manager - ERROR - Failed to connect to source MongoDB instance: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb98eea57199ea4e0a92e, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>
+2025-06-28 11:45:19,792 - src.connection_manager - WARNING - Connection attempt 1 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb991ea57199ea4e0a92f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 1.00 seconds...
+2025-06-28 11:45:51,526 - src.connection_manager - WARNING - Connection attempt 2 failed: Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb9b1ea57199ea4e0a930, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=OperationFailure("Request blocked by network firewall, full error: {'ok': 0.0, 'errmsg': 'Request blocked by network firewall', 'code': 18, 'codeName': 'AuthenticationFailed'}")>]>. Retrying in 2.00 seconds...
+2025-06-28 11:46:24,014 - src.connection_manager - ERROR - Failed to connect after 3 attempts: Could not reach any servers in [('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com', 10255)]. Replica set is configured with internal hostnames or IPs?, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb9d1ea57199ea4e0a931, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=AutoReconnect('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com:10255: connection closed (configured timeouts: socketTimeoutMS: 30000.0ms, connectTimeoutMS: 30000.0ms)')>]>
+2025-06-28 11:46:24,027 - src.connection_manager - ERROR - Failed to connect to source MongoDB instance: Could not reach any servers in [('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com', 10255)]. Replica set is configured with internal hostnames or IPs?, Timeout: 30.0s, Topology Description: <TopologyDescription id: 685fb9d1ea57199ea4e0a931, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com', 10255) server_type: Unknown, rtt: None, error=AutoReconnect('demomongoapiedeletang-westeurope.mongo.cosmos.azure.com:10255: connection closed (configured timeouts: socketTimeoutMS: 30000.0ms, connectTimeoutMS: 30000.0ms)')>]>
+2025-06-28 11:55:33,030 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-28 11:55:33,781 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-28 11:55:33,782 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-28 11:55:34,550 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-28 11:55:34,567 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-28 11:55:53,058 - src.change_stream_manager - ERROR - Collection restaurant.menu does not support change streams: fullDocument option must be "updateLookup"., full error: {'ok': 0.0, 'errmsg': 'fullDocument option must be "updateLookup".', 'code': 2, 'codeName': 'BadValue'}
+2025-06-28 11:56:55,902 - src.change_stream_manager - INFO - No active change streams to stop
+2025-06-30 10:22:34,123 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-30 10:22:42,501 - src.config - INFO - Configuration loaded successfully.
+2025-06-30 10:22:46,214 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-30 10:22:47,580 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-30 10:22:47,581 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-30 10:22:48,647 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-30 10:22:48,691 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-30 10:22:59,585 - src.change_stream_manager - INFO - Testing change stream support for restaurant.menu with options: {'max_await_time_ms': 100, 'batch_size': 1, 'full_document': 'updateLookup'}
+2025-06-30 10:22:59,608 - src.change_stream_manager - ERROR - Azure Cosmos DB change stream error: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-30 10:22:59,610 - src.change_stream_manager - ERROR - Cannot start change stream for restaurant.menu: Azure Cosmos DB change stream error: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-30 10:49:13,749 - src.change_stream_manager - INFO - No active change streams to stop
+2025-06-30 10:51:43,329 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-06-30 10:51:57,672 - src.config - INFO - Configuration loaded successfully.
+2025-06-30 10:52:00,706 - src.connection_manager - INFO - Connecting to source using connection string
+2025-06-30 10:52:02,167 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-06-30 10:52:02,168 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-06-30 10:52:03,190 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-06-30 10:52:03,209 - src.migration_service - INFO - Detected target database type: unknown
+2025-06-30 10:52:14,195 - src.change_stream_manager - INFO - Testing change stream support for restaurant.menu with options: {'max_await_time_ms': 100, 'batch_size': 1, 'full_document': 'updateLookup'}
+2025-06-30 10:52:14,216 - src.change_stream_manager - ERROR - Azure Cosmos DB change stream error: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-30 10:52:14,219 - src.change_stream_manager - ERROR - Cannot start change stream for restaurant.menu: Azure Cosmos DB change stream error: Change stream must be followed by a match and then a project stage, full error: {'ok': 0.0, 'errmsg': 'Change stream must be followed by a match and then a project stage', 'code': 2, 'codeName': 'BadValue'}
+2025-06-30 11:09:43,538 - src.change_stream_manager - INFO - No active change streams to stop
+2025-07-01 10:37:31,253 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI
+2025-07-01 10:37:55,887 - src.config - INFO - Configuration loaded successfully.
+2025-07-01 10:38:04,142 - src.connection_manager - INFO - Connecting to source using connection string
+2025-07-01 10:38:07,392 - src.connection_manager - INFO - Successfully connected to source MongoDB instance
+2025-07-01 10:38:07,393 - src.connection_manager - INFO - Connecting to destination using connection string
+2025-07-01 10:38:09,973 - src.connection_manager - INFO - Successfully connected to destination MongoDB instance
+2025-07-01 10:38:10,010 - src.migration_service - INFO - Detected target database type: unknown
+2025-07-01 10:44:33,578 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-07-01 10:44:33,590 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-07-01 10:44:37,809 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-07-01 10:44:39,087 - src.cosmos_ru_manager - INFO - Collection restaurant.orders already exists
+2025-07-01 10:44:39,314 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-07-01 10:44:39,596 - src.migration_service - INFO - Destination collection restaurant.orders already has 40 documents. Using upsert operations to handle duplicates.
+2025-07-01 10:44:46,286 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: 8f4f6e83-6d22-4c74-9ab0-ccf4641ad1e8; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: 8f4f6e83-6d22-4c74-9ab0-ccf4641ad1e8, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-07-01 10:44:46,313 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-07-01 10:44:46,501 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-07-01 10:44:46,590 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-07-01 10:44:46,621 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-07-01 10:44:46,724 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-07-01 10:44:46,736 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-07-01 10:44:46,903 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-07-01 10:44:47,070 - src.cosmos_ru_manager - INFO - Collection restaurant.menu already exists
+2025-07-01 10:44:47,157 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-07-01 10:44:47,283 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-07-01 10:44:47,511 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-07-01 10:44:47,517 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 14
+2025-07-01 10:44:47,521 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-07-01 10:44:58,376 - src.migration_service - INFO - Migrating collection: restaurant.orders
+2025-07-01 10:44:58,562 - src.migration_service - INFO - Creating RU-based collection restaurant.orders
+2025-07-01 10:45:04,287 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.orders: email
+2025-07-01 10:45:04,398 - src.cosmos_ru_manager - INFO - Collection restaurant.orders already exists
+2025-07-01 10:45:04,451 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-07-01 10:45:04,528 - src.migration_service - INFO - Destination collection restaurant.orders already has 40 documents. Using upsert operations to handle duplicates.
+2025-07-01 10:45:11,423 - src.migration_service - ERROR - Document upsert error: Error=16, Details='Response status code does not indicate success: RequestEntityTooLarge (413); Substatus: 0; ActivityId: 076eb989-d228-436c-abec-942b75552062; Reason: (Message: {"Errors":["Request size is too large"]}
+ActivityId: 076eb989-d228-436c-abec-942b75552062, Request URI: /apps/da8583c8-63ce-437b-92bf-11f8f2bc8d52/services/297f9174-09c3-42b8-9576-80c02e1c9554/partitions/b5095342-9fe2-46c8-a3cc-8134d46b82c3/replicas/133954971009545737p/, RequestStats: Microsoft.Azure.Cosmos.Tracing.TraceData.ClientSideRequestStatisticsTraceDatum, SDK: Windows/10.0.20348 cosmos-netstandard-sdk/3.18.0); - Document: unknown
+2025-07-01 10:45:11,424 - src.migration_service - ERROR - Document upsert error: document does not contain shard key at 'email' - Document: unknown
+2025-07-01 10:45:11,428 - src.migration_service - INFO - Collection migration completed. 0 of 42 documents processed.
+2025-07-01 10:45:11,428 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 0
+2025-07-01 10:45:11,429 - src.migration_service - WARNING - Failed to migrate 2 documents in restaurant.orders
+2025-07-01 10:45:11,466 - src.migration_service - INFO - Migrating collection: restaurant.menu
+2025-07-01 10:45:11,467 - src.migration_service - INFO - Creating RU-based collection restaurant.menu
+2025-07-01 10:45:11,530 - src.cosmos_ru_manager - INFO - Recommended partition key for restaurant.menu: name
+2025-07-01 10:45:11,565 - src.cosmos_ru_manager - INFO - Collection restaurant.menu already exists
+2025-07-01 10:45:11,600 - src.migration_service - INFO - Collection throughput info: {'manual_throughput': None, 'autoscale_settings': {'maxThroughput': 4000}, 'partition_key': '_id'}
+2025-07-01 10:45:11,686 - src.migration_service - INFO - Destination collection restaurant.menu already has 14 documents. Using upsert operations to handle duplicates.
+2025-07-01 10:45:11,768 - src.migration_service - INFO - Collection migration completed. 14 of 14 documents processed.
+2025-07-01 10:45:11,769 - src.migration_service - INFO - Upsert details - Inserted: 0, Upserted: 0, Modified: 14
+2025-07-01 10:45:11,770 - src.migration_service - INFO - Database migration completed. Stats: {'total_collections': 2, 'successful_collections': 2, 'failed_collections': 0, 'total_documents': 56, 'migrated_documents': 14, 'failed_documents': 2}
+2025-07-01 10:48:15,096 - src.change_stream_manager - INFO - No active change streams to stop
+2025-07-01 17:47:55,276 - src.gui - INFO - Starting Cosmos DB Migration Tool GUI

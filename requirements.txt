@@ -1,0 +1,6 @@
+pymongo==4.6.1
+azure-identity==1.15.0
+python-dotenv==1.0.0
+tqdm==4.66.1
+psycopg2-binary==2.9.9
+azure-storage-blob==12.19.0
